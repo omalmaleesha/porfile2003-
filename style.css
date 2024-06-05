@@ -60,7 +60,7 @@ body {
   background-color: rgba(7, 238, 255, 0.74); /* Fallback background color */
   height: 50vh; /* 70% of viewport height */
   width: 18vw; /* 80% of viewport width */
-  border-radius: 10%;
+  border-radius: 10px;
   margin: 100px auto; /* Center the box horizontally and provide top margin */
   padding: 1px; /* Add padding to avoid content sticking to edges */
   position: absolute;
@@ -72,7 +72,7 @@ body {
   background-color: rgba(7, 238, 255, 0.74); /* Fallback background color */
   height: 50vh; /* 70% of viewport height */
   width: 18vw; /* 80% of viewport width */
-  border-radius: 10%;
+  border-radius: 10px;
   margin: 100px auto; /* Center the box horizontally and provide top margin */
   padding: 1px; /* Add padding to avoid content sticking to edges */
   position: absolute;
@@ -105,20 +105,32 @@ body {
     top: 50%; /* Adjust top position */
     left: 50%; /* Adjust left position */
   }
+  .box3 {
+    width: 30vw; /* Adjust width */
+    height: 30vh; /* Adjust height */
+    top: 10%; /* Adjust top position */
+    right: 50%; /* Adjust left position */
+  }
 }
 
 @media (max-width: 480px) {
   .image {
     width: 40vw; /* Further adjust width */
     height: auto; /* Maintain aspect ratio */
-    top: 55%; /* Further adjust top position */
+    top: 80%; /* Further adjust top position */
     left: 60%; /* Further adjust left position */
   }
   .box2 {
-    width: 40vw; /* Further adjust width */
-    height: 32vh; /* Further adjust height */
-    top: 35%; /* Further adjust top position */
+    width: 25vw; /* Further adjust width */
+    height: 20vh; /* Further adjust height */
+    top: 4%; /* Further adjust top position */
     left: 70%; /* Further adjust left position */
+  }
+  .box3 {
+    width: 25vw; /* Further adjust width */
+    height: 20vh; /* Further adjust height */
+    top: 59%; /* Further adjust top position */
+    right: 70%; /* Further adjust left position */
   }
 }
 
