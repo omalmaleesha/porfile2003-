@@ -96,7 +96,7 @@ body {
   .image {
     width: 30vw; /* Adjust width */
     height: auto; /* Maintain aspect ratio */
-    top: 50%; /* Adjust top position */
+    top: 70%; /* Adjust top position */
     left: 70%; /* Adjust left position */
   }
   .box2 {
@@ -108,7 +108,7 @@ body {
   .box3 {
     width: 30vw; /* Adjust width */
     height: 30vh; /* Adjust height */
-    top: 10%; /* Adjust top position */
+    top: 8%; /* Adjust top position */
     right: 50%; /* Adjust left position */
   }
 }
