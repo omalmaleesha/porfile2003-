@@ -82,7 +82,6 @@ body {
 }
 
 .image {
-  /* Make the image responsive */
   border-radius: 10% ;
   width: 16vw; /* Take full width of parent container */
   height: 40vh; /* Maintain aspect ratio */
@@ -111,6 +110,11 @@ body {
     top: 8%; /* Adjust top position */
     right: 50%; /* Adjust left position */
   }
+  .responsive-img{
+    width:20vw;
+    height: 10vh;
+    bottom: 10%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -132,9 +136,54 @@ body {
     top: 59%; /* Further adjust top position */
     right: 70%; /* Further adjust left position */
   }
+  .responsive-img{
+    width:20vw;
+    height: 10vh;
+    bottom: 10%;
+  }
 }
 
+.container-fluid1 {
+  padding-left: 0;
+  padding-right: 0;
+}
 
+.row2 {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: black; /* Make the row background black */
+  position: relative;
+  top: 10%;
+  height: 70vh; /* Full viewport height */
+}
 
+#carouselExampleDark {
+  position: relative;
+  top: -16px;
+  left: 1%;
+  width: 30vw; /* Adjust width as needed */
+  height: 5%; /* Adjust height as needed */
+}
 
-  
+#carouselExampleDark img {
+  height: 75vh; /* Maintain aspect ratio */
+  width: 29%;
+  object-fit: cover; 
+}
+.text{
+  text-align: left;
+  color: white;
+  position:absolute;
+  left: 38%;
+  right: 2%;
+  top: 8%;
+  bottom: 2%;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: 14vh;
+  border-radius: 50%;
+  position: relative;
+  left: 69%;
+}
